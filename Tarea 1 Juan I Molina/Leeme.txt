@@ -1,0 +1,14 @@
+Nombre: Juan Ignacio Molina
+
+Para la tarea se usan todas las librerías indicadas en el enunciado y módulos de la carpeta grafica (No se utilizaron todos los módulos importados ya que copié y pegué los imports del aux 1. Si se usaron los que se piden en el enunciado, las cuales son Pyglet y OpenGL).
+
+De grafica se usa el modulo basic_shapes y el módulo transformations. Además, se usaron los módulos shapes_utils y pyglet_basic_shapes_wrapper de la carpeta examples_pyglet para crear las figuras. 
+
+La tarea básicamente grafica una mariposa muy sencilla creada con polígonos que se mueve con una trayectoria circunferencial por la ventana de pyglet mientras que mueve las alas. El efecto de movimiento se genera con la función translate combinada con las funciones seno y coseno. Dado que estas funciones son periódicas, se puede generar el efecto de que la mariposa se mueva en una trayectoria definida, infinitamente. El efecto de movimiento de las alas se genera combinando la función scale con la función seno, con el mismo argumento que antes pero esta vez en lugar de movimiento de la figura es la escala de esta.
+
+Como extra agregué una mariposa verde para que acompañe a la mariposa naranja y no se sienta tan sola (La única diferencia es que use solo la función seno para la traslación, lo cual genera que esta se mueva con una trayectoria de "8" en lugar de circunferencial).
+
+Las mariposas son sencillas (son básicamente dos rectangulos), pero respecto a esto solo quiero decir que si algún día llegasen a agregar mariposas al Minecraft, probablemente no serían muy distintas de esto.
+ 
+En la carpeta del archivo zip esta la tarea con la carpeta gráfica y el módulo shapes_utils, además de este archivo "Léeme.txt" claramente.
+

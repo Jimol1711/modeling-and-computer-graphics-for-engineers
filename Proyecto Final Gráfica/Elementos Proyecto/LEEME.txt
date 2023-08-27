@@ -1,0 +1,1 @@
+El proyecto en sí no se puede entregar. Lo que entrego son todos los modelos 3D utilizados y los scripts de código que definen el movimiento de los objetos. EL script CircularMovement define el movimiento de la gallina. El script FlyCamera define el movmiento de la cámara con las teclas WASD y el mouse. El script WindmillRotation define el movimiento de las aspas del molino.
